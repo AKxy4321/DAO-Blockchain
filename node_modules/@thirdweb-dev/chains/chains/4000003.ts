@@ -1,0 +1,42 @@
+import type { Chain } from "../src/types";
+export default {
+  "chain": "ETH",
+  "chainId": 4000003,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://zero-explorer.alt.technology",
+      "standard": "EIP3091"
+    }
+  ],
+  "faucets": [],
+  "features": [
+    {
+      "name": "EIP155"
+    },
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "icon": {
+    "url": "ipfs://QmcEfZJU7NMn9ycTAcEooQgGNfa2nYBToSUZHdFCFadcjb",
+    "width": 1080,
+    "height": 1025,
+    "format": "png"
+  },
+  "infoURL": "https://altlayer.io",
+  "name": "AltLayer Zero Gas Network",
+  "nativeCurrency": {
+    "name": "ZERO",
+    "symbol": "tZERO",
+    "decimals": 18
+  },
+  "redFlags": [],
+  "rpc": [
+    "https://altlayer-zero-gas-network.rpc.thirdweb.com/${THIRDWEB_API_KEY}",
+    "https://zero.alt.technology"
+  ],
+  "shortName": "alt-zerogas",
+  "slug": "altlayer-zero-gas-network",
+  "testnet": false
+} as const satisfies Chain;
