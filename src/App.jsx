@@ -103,7 +103,7 @@ const App = () => {
       }
     };
     getAllAddresses();
-  }, [hasClaimedNFT, editionDrop?.history]);
+  }, [hasClaimedNFT, memberAddresses]);
 
   useEffect(() => {
     if (!hasClaimedNFT) {
