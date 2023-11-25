@@ -21,6 +21,7 @@
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
     "url": "^0.11.3",
+    "web3": "^4.2.2",
     "zlib": "^1.0.5"
   },
   "scripts": {
