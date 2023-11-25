@@ -1,5 +1,0 @@
-https://api-testnet.polygonscan.com/api
-   ?module=contract
-   &action=getabi
-   &address=0x8ed15E768DF13eD6808dc1220Bc94b11bFaC31f9
-   &apikey=YourApiKeyToken
